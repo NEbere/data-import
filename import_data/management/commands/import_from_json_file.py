@@ -16,7 +16,6 @@ class Command(BaseCommand):
             with open(os.path.join(data_folder, data_file), encoding='utf-8') as data_file:
                 data = json.loads(data_file.read())
                 for data_object in data:
-                    print(data_object)
                     title = data_object.get('title', None)
                     url = data_object.get('url', None)
                     release_year = datetime.now()
