@@ -1,0 +1,23 @@
+{
+
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "type": "array", 
+  "properties": {
+    "albumId": {
+      "type": "integer"
+    }, 
+    "id": {
+      "type": "integer"
+    }, 
+    "title": {
+      "type": "string"
+    }, 
+    "url": {
+      "type": "string"
+    }, 
+    "thumbnailUrl": {
+      "type": "string"
+    }
+  }
+}
